@@ -38,6 +38,11 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                &__list {
+                    padding-top: 16px;
+                    padding-left: 8px;
+                }
             }
 
             &--is-open {
